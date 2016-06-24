@@ -1,0 +1,6 @@
+cat-app:
+  build: ./
+  volumes:
+    - ./:/app
+  ports:
+    - "5000:5000"
