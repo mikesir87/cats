@@ -4,9 +4,9 @@ RUN sudo apt-get update && apt-get -y install python-pip
 
 RUN sudo pip install flask==0.10.1
 
-COPY . /usr/bin
+COPY . /app
 
-WORKDIR /usr/bin
+WORKDIR /app
 
 EXPOSE 5000
 
