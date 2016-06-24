@@ -9,7 +9,7 @@ node {
   def image = docker.build('mikesir87/cats:' + VERSION)
 
   stage 'docker push'
-  docker.withRegistry('https://hub.docker.com/', 'docker-hub') {
+  docker.withRegistry('https://registry.hub.docker.com/', 'docker-hub') {
     image.push(VERSION);
   }
 }
