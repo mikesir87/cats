@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  cat-app:
+    image: mikesir87/cats
+    volumes:
+      - ./:/app
+    ports:
+      - "5000:5000"
+    deploy:
+      replicas: 3
+      update_config:
+        parallelism: 1
+        delay: 10s
