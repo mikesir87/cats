@@ -8,16 +8,16 @@ container_hostname = socket.gethostname()
 
 # list of cat images
 images = [
-    "https://media.giphy.com/media/cfuL5gqFDreXxkWQ4o/giphy.gif",
-    "https://media.giphy.com/media/W8krmZSDxPIfm/giphy.gif",
-    "https://media.giphy.com/media/UxGNvgpU1hoAw/giphy.gif",
-    "https://media.giphy.com/media/UxGNvgpU1hoAw/giphy.gif",
-    "https://media.giphy.com/media/WLNASdXoq0ZtC/giphy.gif",
-    "https://media.giphy.com/media/HYpZKsyLOn1ks/giphy.gif",
-    "https://media.giphy.com/media/l8px6snusvpII/giphy.gif",
-    "https://media.giphy.com/media/l0Iy9Kry5yhBSwQSs/giphy.gif",
-    "https://media.giphy.com/media/7SfAXqgRgh0li/giphy.gif",
-    "https://media.giphy.com/media/W80Y9y1XwiL84/giphy.gif"
+    "https://media.giphy.com/media/JfDNFU1qOZna/giphy.gif",
+    "https://media.giphy.com/media/pSpmpxFxFwDpC/giphy.gif",
+    "https://media.giphy.com/media/9IRX12VhoXoR2/giphy.gif",
+    "https://media.giphy.com/media/BlRv1TWmIXYVq/giphy.gif",
+    "https://media.giphy.com/media/3oEduKP4VaUxJvLwuA/giphy.gif",
+    "https://media.giphy.com/media/NcNCvPAkUH43e/giphy.gif",
+    "https://media.giphy.com/media/timWG1lyyfcYw/giphy.gif",
+    "https://media.giphy.com/media/KDn7wFpW7V9ba/giphy.gif",
+    "https://media.giphy.com/media/EzOpIqfw2zLDa/giphy.gif",
+    "https://media.giphy.com/media/3o7Zez01HKXvaLXiHS/giphy.gif"
 ]
 
 @app.route('/')
