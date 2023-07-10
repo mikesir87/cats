@@ -1,6 +1,9 @@
-cat-app:
-  build: ./
-  volumes:
-    - ./:/app
-  ports:
-    - "5000:5000"
+services:
+  cat-app:
+    build:
+      context: ./dev
+      dockerfile: ../Dockerfile
+    volumes:
+      - ./dev:/app
+    ports:
+      - "5050:5000"
